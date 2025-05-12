@@ -54,7 +54,7 @@ CREATE TABLE semesters (
     semester_name ENUM('First', 'Second') NOT NULL
 );
 
--- Create session_semesters if needed
+-- Session Semesters Table
 CREATE TABLE SessionSemesters (
     id INT AUTO_INCREMENT PRIMARY KEY,
     session_id INT NOT NULL,
